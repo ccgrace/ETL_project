@@ -1,0 +1,17 @@
+Objective
+    -	Our objective is to combine datasets we find in order to determine community impact on housing in Maryland
+    -	These datasets can range from crime rates, levels of income, educational attainment, etc.
+Sources
+    -	1st Source: Federal Housing Finance Agency
+        o	Yearly housing prices
+        o	Offers range of indices
+    -	2nd Source: Data.Gov
+        o	Tons of different datasets from vast amounts of sources
+        o	Lots of different ideas we can explore
+    -	3rd Source: Census.gov
+        o	Similar to Data.gov, lots of possibilities
+Transformation
+    -	Filtering for geographic locations, housing types, etc.
+    -	Combining in order to compare side by side
+Database
+    -	Using PgAdmin and Jupyter
