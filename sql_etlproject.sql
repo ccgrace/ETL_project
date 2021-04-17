@@ -1,23 +1,22 @@
 --- Housing Price Index ---
 CREATE TABLE hpi_master (
 	ID INT PRIMARY KEY,
-	hpi_type TEXT,
-	hpi_flavor TEXT,
-	frequency TEXT,
-	level TEXT,
-	place_name TEXT,
-	place_id TEXT,
-	yr INT,
-	period INT,
-	index_nsa INT,
-	index_sa INT
+	"Data Type" TEXT,
+	"Index Type" TEXT,
+	"Collection Frequency" TEXT,
+	Level TEXT,
+	State TEXT,
+	"State (abrv.)" TEXT,
+	Year INT,
+	"Collection Period" INT,
+	"Non-Seasonally Adjusted Index" INT,
+	"Seasonally Adjusted Index" INT
 );
 --- Community Development Grants ---
 CREATE TABLE grant_master (
 	ID INT PRIMARY KEY,
 	"Fiscal Year" INT,
 	Awardee TEXT,
-	"Project Name" TEXT,
 	Award TEXT,
 	City TEXT,
 	County TEXT
@@ -30,7 +29,7 @@ CREATE TABLE crime_master (
 	POPULATION INT,
 	"VIOLENT CRIME TOTAL" INT,
 	"PROPERTY CRIME TOTALS" INT,
-	"GRAND TOTALS" INT,
+	"GRAND TOTAL" INT,
 	"VIOLENT CRIME PERCENT CHANGE" INT,
 	"PROPERTY CRIME PERCENT CHANGE" INT,
 	"PERCENT CHANGE" INT,
